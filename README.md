@@ -10,16 +10,17 @@ And then to log in with the command `login <username> <password>`
 
 ### Here is list of all functionalities that the user can access:
 1. Create a new group to store bookmarks with `new-group <group-name>`
-2. Add a new bookmark to a group with ``
-3. Remove a bookmark from a group with ``
-4. List all bookmarks with ``
-5. List all bookmarks from a group with ``
-6. Search bookmarks by tags with ``
-7. Search bookmarks by title with ``
-8. Cleaning up invalid links with ``
-9. Add bookmarks from Chrome with ``
-10. 
-11. 
+2. Add a new bookmark to a group with `add-to <group-name> <bookmark> {--shorten}`
+ - The `{--shorten}` command shortens the bookmark link with the help of bitly
+3. Remove a bookmark from a group with `remove-from <group-name> <bookmark>`
+4. List all bookmarks with `list`
+5. List all bookmarks from a group with `list --group-name <group-name>`
+6. Search bookmarks by tags with `search --tags <tag> [<tag> ...]`
+7. Search bookmarks by title with `search --title <title>`
+8. Cleaning up invalid links with `cleanup`
+9. Add bookmarks from Chrome with `import-from-chrome`
+10. Logout with `logout`
+11. List all chrome bookmarks with `get-chrome-bookmarks`
 
 ## External libraries
 Here is list of all external libraries needed in order to run the project:
