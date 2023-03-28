@@ -24,13 +24,16 @@ And then to log in with the command `login <username> <password>`
 
 ## External libraries
 Here is list of all external libraries needed in order to run the project:
-
+### *Java*
 - **Java 19** - openjdk version 19.0.1
+### *JUnit*
 - **JUnit5.8.1** 
+### *Google Gson*
 - **google.code.gson** version 2.10.1
+### *Jsoup*
 - **jsoup** version 1.15.3
 
-### Mockito
+### *Mockito*
 - **byte-buddy** version 1.12.19
 - **byte-buddy-agent** version 1.12.19
 - **mockito-core** version 4.9.0
