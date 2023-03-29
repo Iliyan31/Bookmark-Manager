@@ -22,7 +22,7 @@ And then to log in with the command `login <username> <password>`.
 9. Add bookmarks from Chrome with `import-from-chrome`.
 10. List all chrome bookmarks with `get-chrome-bookmarks`.
 
-When the user wants to leave the app, they can do it `logout`.
+When the user wants to leave the app, they can do it with the `logout` command.
 
 ## External libraries
 Here is list of all external libraries needed in order to run the project:
