@@ -12,6 +12,7 @@ And then to log in with the command `login <username> <password>`.
 1. Create a new group to store bookmarks with `new-group <group-name>`.
 2. Add a new bookmark to a group with `add-to <group-name> <bookmark> {--shorten}`.
  - The `{--shorten}` command shortens the bookmark link with the help of bitly.
+   > You can create account here: [bitly](https://bitly.com/) and retrieve your api key
 3. Remove a bookmark from a group with `remove-from <group-name> <bookmark>`.
 4. List all bookmarks with `list`.
 5. List all bookmarks from a group with `list --group-name <group-name>`.
